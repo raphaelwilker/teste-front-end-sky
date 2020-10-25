@@ -1,0 +1,28 @@
+{
+  "name": "sky-test-front",
+  "version": "1.0.0",
+  "description": "Teste de front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Wilker Mendes Araújo",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "swiper": "^6.3.4",
+    "vue": "^2.6.12",
+    "vue-resource": "^1.5.1"
+  }
+}
