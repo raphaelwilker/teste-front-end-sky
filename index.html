@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="SKY">
+        <meta name="keywords" content="SKY, Filmes, Canais, Entretenimento">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="./dist/img/logo-sky.svg"/>
+        <link rel="stylesheet" href="./dist/css/vendor.min.css">
+        <link rel="stylesheet" href="./dist/css/index.min.css">
+
+    </head>
+    <body>
+        <div class="container-fluid" id="app">
+            
+            <div class="row">
+                <custommenu></custommenu>
+            </div>
+            <div class="row">
+                <section class="col-md-12 section-body">
+                    <section>
+                        <tabs></tabs>
+                    </section>
+                    <main>
+                        <section  class="section-carousel">
+                            <carousel ref="customcarousel"></carousel>
+                        </section>
+                        <section class="section-playlist">
+                            <playlist ref="playlist"></playlist>
+                        </section>
+                    </main>
+                </section>
+            </div>
+            <div class="row">
+                <custom-footer></custom-footer>
+            </div>
+
+        </div>
+        <script src="./dist/js/vendor.min.js" ></script>
+        <script src="./dist/js/index.min.js" ></script>
+    </body>
+</html>
